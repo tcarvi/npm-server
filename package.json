@@ -6,7 +6,8 @@
     "type": "module",
     "main": "server.js",
     "scripts": {
-      "start": "node server.js"
+      "start": "node server.js",
+      "serve": "node ./server.js $SERVER_PORT"
     },
     "dependencies": {
       "express": "^4.16.1"
