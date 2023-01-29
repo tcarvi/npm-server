@@ -1,9 +1,11 @@
 'use strict';
+import { argv } from 'node:process';
+import express from 'express';
 
-const express = require('express');
-
-// App
 const app = express();
+const port = argv[2];
+
 app.use(express.static('public'));
 
-app.listen(3000);
+if (port){app.listen(port);
+} 
