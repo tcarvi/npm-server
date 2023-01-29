@@ -1,5 +1,4 @@
 FROM node:16
-
 WORKDIR /website
 
 COPY ./package.json /website/

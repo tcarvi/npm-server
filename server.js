@@ -7,5 +7,4 @@ const port = argv[2];
 
 app.use(express.static('public'));
 
-if (port){app.listen(port);
-} 
+if (port){app.listen(port);}
